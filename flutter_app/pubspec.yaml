@@ -1,0 +1,22 @@
+name: palette_image_app
+description: A tiny Flutter app that fetches random images and adapts the background to the image colors.
+publish_to: 'none'
+version: 0.1.0
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.6
+  cached_network_image: ^3.2.3
+  palette_generator: ^0.3.2
+  flutter_bloc: ^8.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
