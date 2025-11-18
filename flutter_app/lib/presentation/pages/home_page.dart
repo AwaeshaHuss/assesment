@@ -57,8 +57,8 @@ class HomeView extends StatelessWidget {
                 Expanded(
                   child: Center(
                     child: SizedBox(
-                      width: MediaQuery.of(context).size.shortestSide * 0.6,
-                      height: MediaQuery.of(context).size.shortestSide * 0.6,
+                      width: MediaQuery.of(context).size.shortestSide * 0.672,
+                      height: MediaQuery.of(context).size.shortestSide * 0.672,
                       child: Semantics(
                         label: 'Random image',
                         child: ImageSquare(

@@ -12,7 +12,7 @@ class ImageSquare extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
-      borderRadius: BorderRadius.circular(12),
+      borderRadius: BorderRadius.circular(17),
       child: SizedBox.expand(
         child: LayoutBuilder(builder: (context, constraints) {
           return SizedBox(

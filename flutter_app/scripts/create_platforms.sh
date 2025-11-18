@@ -9,7 +9,7 @@ echo "Running 'flutter create .' in $ROOT_DIR to generate platform folders..."
 cd "$ROOT_DIR"
 
 # Create platform folders and required files. This will not overwrite existing files.
-flutter create .
+flutter create --platforms=android,ios .
 
 # pub get then run the app on the connected emulator/simulator or physical device.
 flutter pub get
